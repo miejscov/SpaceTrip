@@ -279,6 +279,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -456,8 +457,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4096d0e881dcfdc4c9827e1e6bbc0786, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
-  power: 8.4
+  rotationSpeed: 15
+  rocketPower: 10.5
 --- !u!50 &1073002263
 Rigidbody2D:
   serializedVersion: 4
